@@ -1,0 +1,19 @@
+{
+  "name": "iconify-search",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "prepare": "bun scripts/gen-icons.ts",
+    "dev": "bun index.ts"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.187",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fuse.js": "^7.0.0"
+  }
+}
