@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "prepare": "bun scripts/gen-icons.ts",
+    "postinstall": "bun scripts/gen-icons.ts",
     "dev": "bun index.ts"
   },
   "devDependencies": {
